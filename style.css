@@ -1,0 +1,41 @@
+.parent{
+    height: 2000px;
+    width:600px;
+    border:2px solid red;
+
+}
+.child{
+    height: 300px;
+    width:200px;
+    border:2px solid pink;
+}
+@media (min-width:0px) and(max-width:480px)
+{
+    .child{
+        height: 230px;
+        width: 190px;
+        background-color: aqua;
+    }
+}
+@media (min-width:481px)and (max-width:768px)
+{
+.child{
+    height:240px;
+    width: 170px;
+    border:15px solid yellow;
+}
+}
+@media (min-width:769px)and(max-width:1279px){
+    .child{
+        height: 250px;
+        width:200px;
+        font-family: sans-serif;
+    }
+}
+@media (max-width:1280px){
+    .child{
+        height:270px;
+        width: 340px;
+        align:centre;
+    }
+}
